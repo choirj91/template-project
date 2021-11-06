@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  /* 모바일 */
+  body {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* 모바일 */
+  body {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* 데스크탑 */
+  body {
+    font-size: 14px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
