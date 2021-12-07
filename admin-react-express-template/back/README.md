@@ -1,0 +1,3 @@
+setting
+- nginx
+- crontab

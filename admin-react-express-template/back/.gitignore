@@ -1,0 +1,9 @@
+node_modules
+.env
+.env-prov
+uploads
+backupFiles
+backup
+참고
+*.zip
+temp
